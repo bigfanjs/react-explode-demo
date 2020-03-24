@@ -2,7 +2,7 @@ import React, { useState, useContext, useCallback } from "react";
 import { Formik } from "formik";
 import { Context } from "context/Explosion";
 import HamburgerIcon from "components/Icons/Hamburger";
-import SingleExplosionForm, { initialValues } from "./SingleExplosionForm";
+import SingleExplosionForm from "./SingleExplosionForm";
 import * as styles from "./styles";
 
 export default function Menu() {
@@ -25,7 +25,7 @@ export default function Menu() {
         <styles.MenuBody>
           <Formik
             onSubmit={handleSubmit}
-            initialValues={initialValues}
+            initialValues={explosion}
             component={SingleExplosionForm}
           />
         </styles.MenuBody>

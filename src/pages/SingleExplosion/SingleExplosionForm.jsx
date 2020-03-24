@@ -27,8 +27,8 @@ function Select({ field, onChange }) {
   );
 }
 
-export default function SingleExplosionForm({ explosion }) {
-  const { setExplosion } = useContext(Context);
+export default function SingleExplosionForm() {
+  const { explosion, setExplosion } = useContext(Context);
   const handleExplosionChange = value =>
     setExplosion({ ...explosion, name: value });
 
@@ -56,11 +56,3 @@ export default function SingleExplosionForm({ explosion }) {
     </Form>
   );
 }
-
-export const initialValues = {
-  name: "Boracay",
-  size: 400,
-  delay: 0,
-  repeatDelay: 0,
-  repeat: 500
-};

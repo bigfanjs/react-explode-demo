@@ -15,8 +15,13 @@ export const Grid = styled.div`
 `;
 
 export const GridItem = styled.div`
-  /* border: 1px solid #fff; */
+  border: 0.5px solid #1b1b1b;
   height: 200px;
   width: 200px;
   position: relative;
+
+  > div {
+    width: 100%;
+    height: 100%;
+  }
 `;

@@ -97,9 +97,6 @@ export const BodySection = styled.section`
       width: 100%;
       height: auto;
     }
-
-    > svg[width] {
-    }
   }
 `;
 

@@ -9685,7 +9685,7 @@ react-error-overlay@^6.0.6:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.6.tgz#ac4d9dc4c1b5c536c2c312bf66aa2b09bfa384e2"
   integrity sha512-Yzpno3enVzSrSCnnljmr4b/2KUQSMZaPuqmS26t9k4nW7uwJk6STWmH9heNjPuvqUTO3jOSPkHoKgO4+Dw7uIw==
 
-react-explode@2.0.1:
+react-explode@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/react-explode/-/react-explode-2.0.1.tgz#f2a9d0305a0fc5bc550f64d0dd3d23c8d9488046"
   integrity sha512-FXVpyTpAfv8w5UVjMo6DkaVsGc60P9J/V3VOj2wHF2yyMwCpKNdgxmJc3Un397DE7IOqdbqIfnIbwiv92FG7sw==

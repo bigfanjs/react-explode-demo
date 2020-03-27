@@ -1,16 +1,10 @@
 import React from "react";
-import { Router } from "@reach/router";
-
-import SingleExplosion from "pages/SingleExplosion/SingleExplosion";
-import All from "pages/All/All";
+import SingleExplosion from "components/SingleExplosion/SingleExplosion";
 
 export default function App() {
   return (
     <div>
-      <Router>
-        <SingleExplosion path="/" />
-        <All path="/all" />
-      </Router>
+      <SingleExplosion />
     </div>
   );
 }
